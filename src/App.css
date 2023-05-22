@@ -1,0 +1,55 @@
+*{
+  margin: 2px;
+}
+.spacing{
+  border-top: 2px;
+  border-bottom: 2px;
+}
+.hero-main{
+  display: flex;
+  justify-content: space-around;
+}
+.hero-img{
+  width: 7rem;
+}
+
+.high-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.high-salad{
+  width: 7rem;
+}
+.high-bruschetta{
+  width: 7rem;
+}
+.high-dessert{
+  width: 7rem;
+}
+
+.test-person{
+  width: 7rem;
+}
+.test-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.about-img{
+  width: 10rem;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-img{
+  height: 10rem;
+}
+.footer-li{
+  list-style: none;
+}
