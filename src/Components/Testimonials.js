@@ -5,8 +5,9 @@ import test4 from '../Images/testimonial-4.png'
 
 function Testimonials() {
     return(
-        <main className='spacing'>
+        <main className='spacing background'>
             <h2 className='test-title'>Testimonials</h2>
+            <br/>
         <div className='test-flex'>
             <div className='test-flex'>
                 <div><img src={test1} alt="testimonial-1" className='test-person'></img></div>

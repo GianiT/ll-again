@@ -6,24 +6,60 @@ function Footer() {
             <img src={restaurant} alt="Restaurant" className='footer-img'></img>
             <section className='footer-section'>
                 <h4 className='footer-title'>Doormat Navigation</h4>
-                <li className='footer-li'>Home</li>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Home" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="About" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Menu" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Reservations" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Order Online" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Login" className='footer-btn'></input>
+                </form>
+                {/* <li className='footer-li'>Home</li>
                 <li className='footer-li'>About</li>
                 <li className='footer-li'>Menu</li>
                 <li className='footer-li'>Reservations</li>
                 <li className='footer-li'>Order Online</li>
-                <li className='footer-li'>Login</li>
+                <li className='footer-li'>Login</li> */}
             </section>
             <section className='footer-section'>
                 <h4 className='footer-title'>Contact</h4>
-                <li className='footer-li'>Address</li>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Address" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Phone Nr" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="E-mail" className='footer-btn'></input>
+                </form>
+                {/* <li className='footer-li'>Address</li>
                 <li className='footer-li'>Phone Number</li>
-                <li className='footer-li'>E-mail</li>
+                <li className='footer-li'>E-mail</li> */}
             </section>
             <section className='footer-section'>
                 <h4 className='footer-title'>Social Media Links</h4>
-                <li className='footer-li'>Facebook</li>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Facebook" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Instagram" className='footer-btn'></input>
+                </form>
+                <form action="https://google.com" target="#">
+                    <input type="submit" value="Twitter" className='footer-btn'></input>
+                </form>
+                {/* <li className='footer-li'>Facebook</li>
                 <li className='footer-li'>Instagram</li>
-                <li className='footer-li'>Twitter</li>
+                <li className='footer-li'>Twitter</li> */}
             </section>
         </main>
     )
